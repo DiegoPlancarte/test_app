@@ -36,7 +36,7 @@ const Navigation = (props) => {
               <NavLink href="/">Contact Us</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag="a" href="/"></NavLink>
+              <NavLink tag="a" href="/profile">My Profile</NavLink>
             </NavItem>
             <NavItem>
               <NavLink tag="a" href="/">Create Vendor</NavLink>
