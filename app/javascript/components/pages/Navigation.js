@@ -33,16 +33,16 @@ const Navigation = (props) => {
               <NavLink tag="a" href="/">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">Contact Us</NavLink>
+              <NavLink href="/newpost">Create Post</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink tag="a" href="/allposts">All Posts</NavLink>
             </NavItem>
             <NavItem>
               <NavLink tag="a" href="/profile">My Profile</NavLink>
             </NavItem>
             <NavItem>
               <NavLink tag="a" href="/">Create Vendor</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink tag="a" href="/">Account</NavLink>
             </NavItem>
           </Nav>
             <Button className="btn bg-white text-secondary" href={sign_out_route}><strong>Sign Out</strong></Button>

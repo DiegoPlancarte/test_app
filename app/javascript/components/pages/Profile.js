@@ -8,11 +8,12 @@ const Profile = (props) => {
 
   useEffect(()=>{
     setInputs(inputs=>({...inputs, user_id:props.current_user.id}))
-  }, [inputs.user_id === 1])
+    }, [inputs.user_id === 1])
 
 
   const submitHandler = () => {
     props.createProfile()
+    handleSubmit
   }
 
   console.log(inputs)
